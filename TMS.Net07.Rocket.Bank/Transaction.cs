@@ -13,8 +13,7 @@ namespace TMS.Net07.Rocket.Bank
         public Transaction(decimal amount, DateTime date)
         {
             this.Amount = amount;
-            this.Date = date;
-            
+            this.Date = date;   
         }
     }
 }

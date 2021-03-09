@@ -27,6 +27,7 @@ namespace TMS.Net07.Rocket.Bank
         }
         public Account(string name, decimal initialBalance)
         {
+            
             this.Number = accountNumberSeed.ToString();
             accountNumberSeed++;
 
